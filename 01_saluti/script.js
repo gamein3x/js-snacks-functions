@@ -3,11 +3,14 @@
 const userName = 'Mario';
 
 
-// Dichiara la funzione qui.
 
+// Dichiara la funzione qui.
+function saluti(name) {
+    return `Come va, ${name}?`
+}
 
 // Invoca la funzione qui e stampa il risultato in console
-
+console.log(saluti(userName));
 
 
 //Risultato atteso se si passa 'Mario': // ciao Mario
